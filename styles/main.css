@@ -1,7 +1,9 @@
+/* the styles for the elements */
 body {
 	font-family: sans-serif;
     
 }
+/* the styles for the header */
 header img {
 	float: left;
 	
@@ -17,7 +19,7 @@ header h3 {
 header h3 em {
 	text-shadow: 2px 2px #800000;
 }
-
+/* the styles for the main content */
 main {
 	clear: left;
 	a:hover {font-style: italic;}
@@ -32,6 +34,7 @@ main h3 {
 a:active {
   color: blue;
 }
+/* the styles for the footer */
 footer p {
 text-align: center;
 }
