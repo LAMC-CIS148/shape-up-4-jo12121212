@@ -9,15 +9,13 @@ header img {
 	
 }
 header h1{
+	shadow: 2px 2px steel blue;
 	font-style: italic;
 	color: steelblue;
 	text-indent: 30px;
 }
 header h3 {
 	text-indent: 30px;
-}
-header h3 em {
-	text-shadow: 2px 2px #800000;
 }
 /* the styles for the main content */
 main {
@@ -32,7 +30,7 @@ main h3 {
 }
 /* selected link */
 a:active {
-  color: blue;
+  color: maroon;
 }
 /* the styles for the footer */
 footer p {
