@@ -1,0 +1,32 @@
+body {
+	font-family: sans-serif;
+    
+}
+
+}
+header h2 {
+	color: #800000;
+	font-size: 170%;
+	text-indent: 30px;
+}
+header h3 {
+	font-size: 130%;
+	text-indent: 30px;
+}
+header h3 em {
+	text-shadow: 2px 2px #800000;
+}
+
+main {
+	clear: left;
+	a:hover {font-style: italic;}
+}
+main h2 {
+		color: #800000;
+}
+main h3 {
+	
+}
+footer p {
+text-align: center;
+}
