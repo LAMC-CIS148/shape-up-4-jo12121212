@@ -7,7 +7,7 @@ color: maroon;
 
 a:hover {
 color: steelblue;
-
+}
 ul a{
 font-weight:bold;
 color: steelblue;
@@ -37,7 +37,6 @@ main h2 {
 	
 }
 main h3 {
-	color: maroon;
 }
 footer p {
 text-align: center;
