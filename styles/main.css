@@ -22,7 +22,7 @@ header img {
 	
 }
 header h1{
-	shadow: 2px 2px steelblue;
+	text-shadow: 2px 2px steelblue;
 	font-style: italic;
 	color: steelblue;
 	text-indent: 30px;
