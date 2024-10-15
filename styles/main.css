@@ -23,6 +23,7 @@ color: maroon;
 }
 
 header {
+	margin: auto;
 	padding: 10px;
 	border-bottom: solid steelblue;
 	background-image: linear-gradient(to bottom, white 0%, lightsteelblue 100%)
