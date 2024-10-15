@@ -2,7 +2,7 @@ body {
 	font-family: sans-serif;
 	width: 900px;
 	border: solid steelblue;
-	box-shadow: 1px 1px 1px 1px;
+	box-shadow: 4px 4px 4px 4px;
 	text-align: center;
 }
 a {
@@ -23,7 +23,7 @@ color: maroon;
 
 header {
 	border-bottom: solid steelblue;
-	background-image: linear-gradient(to bottom, white 0%, steelblue 100%)
+	background-image: linear-gradient(to bottom, white 0%, lightsteelblue 100%)
 }
 
 header img {
