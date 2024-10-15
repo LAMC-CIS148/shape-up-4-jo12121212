@@ -3,6 +3,7 @@ body {
 	width: 900px;
 	border: solid steelblue;
 	box-shadow: 1px 1px 1px 1px;
+	text-align: center;
 }
 a {
 color: maroon;
