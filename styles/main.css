@@ -1,7 +1,7 @@
 body {
 	font-family: sans-serif;
 	width: 900px;
-	border: solid blue;
+	border: solid steelblue;
 	box-shadow: 1px 1px 1px 1px;
 }
 a {
@@ -21,7 +21,7 @@ color: maroon;
 }
 
 header {
-	border-bottom: solid blue;
+	border-bottom: solid steelblue;
 }
 
 header img {
@@ -43,6 +43,9 @@ main {
 h2 {
 	text-align: left;
 	
+}
+footer {
+	background-color: steelblue;
 }
 main h3 {
 }
