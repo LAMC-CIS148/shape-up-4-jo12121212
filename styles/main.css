@@ -2,6 +2,7 @@ body {
 	font-family: sans-serif;
 	width: 900px;
 	border: solid blue;
+	box-shadow: 1px 1px 1px 1px;
 }
 a {
 color: maroon;
@@ -17,6 +18,10 @@ color: steelblue;
 
 ul a:hover{
 color: maroon;
+}
+
+header {
+	border-bottom: solid blue;
 }
 
 header img {
