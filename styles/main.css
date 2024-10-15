@@ -23,6 +23,7 @@ color: maroon;
 
 header {
 	border-bottom: solid steelblue;
+	background-image: linear-gradient(to bottom, white 0%, steelblue 100%)
 }
 
 header img {
