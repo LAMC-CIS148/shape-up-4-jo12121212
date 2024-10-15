@@ -4,7 +4,7 @@ body {
 	border: solid steelblue;
 	box-shadow: 5px 5px 4px 4px;
 	margin: auto;
-	padding: auto;
+	padding: 5px;
 }
 a {
 color: maroon;
