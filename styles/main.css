@@ -4,7 +4,7 @@ body {
 	border: solid steelblue;
 	box-shadow: 5px 5px 4px 4px;
 	margin: auto;
-	
+	padding: 10px;
 }
 a {
 color: maroon;
@@ -23,7 +23,7 @@ color: maroon;
 }
 
 header {
-	padding: 10 px;
+	padding: 10px;
 	border-bottom: solid steelblue;
 	background-image: linear-gradient(to bottom, white 0%, lightsteelblue 100%)
 }
