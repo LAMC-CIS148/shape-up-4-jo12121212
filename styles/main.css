@@ -1,6 +1,5 @@
 /* custom property */
-:root {
-	;
+
 /* the styles for the elements */
 
 body {
@@ -52,6 +51,7 @@ header h3 {
 main {
 	clear: left;
 	a:link {color: maroon;}
+}
 h2 {
 	text-align: left;
 	}
