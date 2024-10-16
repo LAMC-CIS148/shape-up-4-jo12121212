@@ -7,7 +7,7 @@ body {
 	font-family: sans-serif;
 	width: 900px;
 	border: solid steelblue;
-	box-shadow: 5px;
+	box-shadow: 10px 10px 10px 10px black;
 	margin: auto;
 	padding: 20px;
 }
