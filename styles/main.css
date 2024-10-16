@@ -1,3 +1,8 @@
+/* custom property */
+:root {
+	;
+/* the styles for the elements */
+
 body {
 	font-family: sans-serif;
 	width: 900px;
@@ -47,8 +52,8 @@ main {
 	a:link {color: maroon;}
 h2 {
 	text-align: left;
-	
-}
+	}
+/* the styles for the footer */
 footer {
 	text-align: center;
 	background-color: steelblue;
