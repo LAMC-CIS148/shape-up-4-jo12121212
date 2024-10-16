@@ -55,8 +55,9 @@ h2 {
 	}
 /* the styles for the footer */
 footer {
-	text-align: center;
 	background-color: steelblue;
-	color: white;
 }
-
+footer p {
+	color: white;
+	text-align: center;
+}
