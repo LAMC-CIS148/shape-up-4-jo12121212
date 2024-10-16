@@ -10,7 +10,8 @@ body {
 	margin: auto;
 	margin-top: 2em;
 	margin-bottom: 2em;
-	padding: 2em;
+	padding-right: 2em;
+	padding-left: 2em;
 }
 a {
 color: maroon;
