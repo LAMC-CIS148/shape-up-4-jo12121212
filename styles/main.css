@@ -30,6 +30,8 @@ color: maroon;
 }
 
 header {
+	margin: 0em;
+	padding: 0em;
 	border-bottom: solid steelblue;
 	background-image: linear-gradient(to bottom, white 0%, lightsteelblue 100%)
 }
