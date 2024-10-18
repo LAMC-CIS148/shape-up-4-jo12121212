@@ -60,7 +60,11 @@ h2 {
 /* the styles for the footer */
 footer {
 	background-color: steelblue;
-	margin: -2em;
+	margin-right: -2em;
+	margin-left: -2em;
+	margin-top: -1em;
+	margin-bottom: -1em;
+
 	padding: 2em;
 }
 footer p {
