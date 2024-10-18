@@ -8,8 +8,9 @@ body {
 	border: solid steelblue;
 	box-shadow: 0px 0px 10px 10px black;
 	margin: auto;
-	margin-top: 2em;
-	margin-bottom: 2em;
+	margin-top: -2em
+	margin-left: -2em;
+	margin-right: -2em;
 	padding-right: 2em;
 	padding-left: 2em;
 }
@@ -59,6 +60,7 @@ h2 {
 /* the styles for the footer */
 footer {
 	background-color: steelblue;
+	margin: -2em;
 }
 footer p {
 	color: white;
