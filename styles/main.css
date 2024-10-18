@@ -28,7 +28,9 @@ color: maroon;
 }
 
 header {
-	margin: 0em;
+	margin-right: -2em;
+	margin-left: -2em;
+        margin-top: -0.5em;
 	padding: 0em;
 	border-bottom: solid steelblue;
 	background-image: linear-gradient(to bottom, white 0%, lightsteelblue 100%)
@@ -59,8 +61,8 @@ footer {
 	background-color: steelblue;
 	margin-right: -2em;
 	margin-left: -2em;
-	margin-top: -1em;
-	margin-bottom: -1em;
+	margin-top: -0.5em;
+	margin-bottom: -0.5em;
 
 	padding: 2em;
 }
