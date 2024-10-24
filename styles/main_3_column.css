@@ -1,0 +1,70 @@
+/* custom property */
+
+/* the styles for the elements */
+
+body {
+	font-family: sans-serif;
+	width: 900px;
+	border: solid steelblue;
+	box-shadow: 0px 0px 10px 10px black;
+	margin: auto;
+	padding-right: 2em;
+	padding-left: 2em;
+}
+a {
+color: maroon;
+}
+
+a:hover {
+color: steelblue;
+}
+ul a{
+font-weight:bold;
+color: steelblue;
+}
+
+ul a:hover{
+color: maroon;
+}
+
+header {
+	margin-right: -2em;
+	margin-left: -2em;
+        margin-top: -0.5em;
+	margin-bottom: -0.5em;
+	padding: 0em;
+	border-bottom: solid steelblue;
+	background-image: linear-gradient(to bottom, white 0%, lightsteelblue 100%)
+}
+
+header img {
+	float: left;
+	
+}
+header h1{
+	text-shadow: 2px 2px steelblue;
+	font-style: italic;
+	color: steelblue;
+	text-indent: 30px;
+}
+header h3 {
+	text-indent: 30px;
+}
+main {
+	clear: left;
+	a:link {color: maroon;}
+}
+h2 {
+	text-align: left;
+	}
+/* the styles for the footer */
+footer {
+	background-color: steelblue;
+	margin-right: -2em;
+	margin-left: -2em;
+	padding: 2em;
+}
+footer p {
+	color: white;
+	text-align: center;
+}
