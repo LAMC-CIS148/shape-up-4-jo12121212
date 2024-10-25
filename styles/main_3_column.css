@@ -12,6 +12,7 @@ body {
 	padding-left: 2em;
 }
 #sidebarA {
+	width: 245px;
 	float: left;
 	width: 245px;
 }
@@ -19,6 +20,7 @@ body {
 	color: maroon;
 }
 #sidebarB {
+	width: 400px;
 	float: right;
 }
 #sidebarB h2 {
@@ -64,6 +66,7 @@ header h3 {
 	text-indent: 30px;
 }
 main {
+	width: 555px;
 	clear: left;
 	a:link {color: maroon;}
 }
