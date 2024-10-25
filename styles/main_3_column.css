@@ -66,6 +66,7 @@ header h3 {
 	text-indent: 30px;
 }
 main {
+	float: left;
 	width: 555px;
 	clear: left;
 	a:link {color: maroon;}
