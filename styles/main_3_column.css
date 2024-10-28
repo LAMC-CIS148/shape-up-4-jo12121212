@@ -17,6 +17,7 @@ body {
 
 #sidebarA {
     width: 245px;
+    padding: -1em;
 }
 
 #sidebarA h2 {
