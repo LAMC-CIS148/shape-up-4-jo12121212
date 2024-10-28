@@ -1,87 +1,96 @@
-/* custom property */
+/* Custom property */
 
-/* the styles for the elements */
-
+/* The styles for the elements */
 body {
-	font-family: sans-serif;
-	width: 1200px;
-	border: solid steelblue;
-	box-shadow: 0px 0px 10px 10px black;
-	margin: auto;
-	padding-right: 2em;
-	padding-left: 2em;
+    font-family: sans-serif;
+    width: 1200px;
+    border: solid steelblue;
+    box-shadow: 0px 0px 10px 10px black;
+    margin: auto;
+    padding: 1em; /* Add padding inside the border */
 }
+
+.container {
+    display: flex; /* Use Flexbox for the layout */
+    justify-content: space-between; /* Space between columns */
+}
+
 #sidebarA {
-	width: 245px;
-	float: left;
-	width: 245px;
+    width: 245px;
 }
-#siderbarA h2 {
-	color: maroon;
+
+#sidebarA h2 {
+    color: maroon;
 }
+
 #sidebarB {
-	width: 350px;
-	float: right;
+    width: 350px;
 }
+
 #sidebarB h2 {
-	color:maroon;
+    color: maroon;
 }
+
+main {
+    flex: 1; /* Allow main to take the remaining space */
+    margin: 0 1em; /* Add margin to create space between columns */
+}
+
 a {
-color: maroon;
+    color: maroon;
 }
 
 a:hover {
-color: steelblue;
-}
-ul a{
-font-weight:bold;
-color: steelblue;
+    color: steelblue;
 }
 
-ul a:hover{
-color: maroon;
+ul a {
+    font-weight: bold;
+    color: steelblue;
+}
+
+ul a:hover {
+    color: maroon;
 }
 
 header {
-	margin-right: -2em;
-	margin-left: -2em;
-        margin-top: -0.5em;
-	margin-bottom: -0.5em;
-	padding: 0em;
-	border-bottom: solid steelblue;
-	background-image: linear-gradient(to bottom, white 0%, lightsteelblue 100%)
+    margin-right: -2em;
+    margin-left: -2em;
+    margin-top: -0.5em;
+    margin-bottom: -0.5em;
+    padding: 0em;
+    border-bottom: solid steelblue;
+    background-image: linear-gradient(to bottom, white 0%, lightsteelblue 100%);
 }
 
 header img {
-	float: left;
-	
+    float: left;
 }
-header h1{
-	text-shadow: 2px 2px steelblue;
-	font-style: italic;
-	color: steelblue;
-	text-indent: 30px;
+
+header h1 {
+    text-shadow: 2px 2px steelblue;
+    font-style: italic;
+    color: steelblue;
+    text-indent: 30px;
 }
+
 header h3 {
-	text-indent: 30px;
+    text-indent: 30px;
 }
-main {
-	float: center;
-	width: 500px;
-	clear: left;
-	a:link {color: maroon;}
-}
+
 h2 {
-	text-align: left;
-	}
-/* the styles for the footer */
-footer {
-	background-color: steelblue;
-	margin-right: -2em;
-	margin-left: -2em;
-	padding: 2em;
+    text-align: left;
 }
+
+/* The styles for the footer */
+footer {
+    background-color: steelblue;
+    margin-right: -2em;
+    margin-left: -2em;
+    padding: 2em;
+}
+
 footer p {
-	color: white;
-	text-align: center;
+    color: white;
+    text-align: center;
 }
