@@ -17,7 +17,7 @@ body {
 
 #sidebarA {
     width: 245px;
-    margin-left: -2em;
+    margin-left: -1em;
 }
 
 #sidebarA h2 {
@@ -34,7 +34,7 @@ body {
 
 main {
     flex: 1; /* Allow main to take the remaining space */
-    margin: 0 1em; /* Add margin to create space between columns */
+    margin: 1em 1em; /* Add margin to create space between columns */
 }
 
 a {
