@@ -55,10 +55,10 @@ ul a:hover {
 }
 
 header {
-    margin-right: -2em;
-    margin-left: -2em;
-    margin-top: -0.5em;
-    margin-bottom: -0.5em;
+    margin-right: -1em;
+    margin-left: -1em;
+    margin-top: -2em;
+    margin-bottom: -2em;
     padding: 0em;
     border-bottom: solid steelblue;
     background-image: linear-gradient(to bottom, white 0%, lightsteelblue 100%);
@@ -86,8 +86,8 @@ h2 {
 /* The styles for the footer */
 footer {
     background-color: steelblue;
-    margin-right: -2em;
-    margin-left: -2em;
+    margin-right: -1em;
+    margin-left: -1em;
     padding: 2em;
 }
 
