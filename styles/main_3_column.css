@@ -33,7 +33,7 @@ body {
 }
 
 main {
-    flex: 1; /* Allow main to take the remaining space */
+    width: 45%;
     margin: 1em 1em; /* Add margin to create space between columns */
 }
 
