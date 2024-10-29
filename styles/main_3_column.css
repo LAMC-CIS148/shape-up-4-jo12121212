@@ -59,7 +59,7 @@ header {
     margin-left: -1em;
     margin-top: -2em;
     margin-bottom: -2em;
-    padding: 1em;
+    padding: 2em;
     border-bottom: solid steelblue;
     background-image: linear-gradient(to bottom, white 0%, lightsteelblue 100%);
 }
