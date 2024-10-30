@@ -16,13 +16,13 @@ body {
 }
 
 #sidebarA {
-    width: 200px; /* Width for sidebar A */
+    width: 245px; /* Width for sidebar A */
     padding: 1em; /* Add padding inside sidebar A */
     margin: 0 1em; /* Add horizontal margin */
 }
 
 #sidebarB {
-    width: 300px; /* Width for sidebar B */
+    width: 455px; /* Width for sidebar B */
     padding: 1em; /* Add padding inside sidebar B */
     margin: 0 1em; /* Add horizontal margin */
 }
