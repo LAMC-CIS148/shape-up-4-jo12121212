@@ -20,14 +20,21 @@ body {
     padding: 1em;
     margin: 0 1em;
 }
+#sidebarA h2{
+    color: maroon;
+}
+    
 
 #sidebarB {
-    width: 455px; 
+    width: 405px; 
     padding: 1em; 
     margin: 0 1em; 
 }
+#sidebarB h2{
+    color:maroon;
+}
 #sidebarC {
-    width: 600px;
+    width: 550px;
     padding: 1em;
     margin: 0 1em;
 }
