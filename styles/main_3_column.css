@@ -16,21 +16,18 @@ body {
 }
 
 #sidebarA {
-    float: left;
     width: 245px; 
     padding: 1em;
     margin: 0 1em;
 }
 
 #sidebarB {
-    float: right;
     width: 455px; 
     padding: 1em; 
     margin: 0 1em; 
 }
 
 main {
-    float: left;
     width: calc(100% - 500px); 
     padding: 1em; 
     margin: 0 1em; 
