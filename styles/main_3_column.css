@@ -7,30 +7,33 @@ body {
     border: solid steelblue;
     box-shadow: 0px 0px 10px 10px black;
     margin: auto;
-    padding: 1em; /* Add padding inside the border */
+    padding: 1em; 
 }
 
 .container {
-    display: flex; /* Use Flexbox for the layout */
-    justify-content: center; /* Center the container */
+    display: flex; 
+    justify-content: center; 
 }
 
 #sidebarA {
-    width: 245px; /* Width for sidebar A */
-    padding: 1em; /* Add padding inside sidebar A */
-    margin: 0 1em; /* Add horizontal margin */
+    float: left;
+    width: 245px; 
+    padding: 1em;
+    margin: 0 1em;
 }
 
 #sidebarB {
-    width: 455px; /* Width for sidebar B */
-    padding: 1em; /* Add padding inside sidebar B */
-    margin: 0 1em; /* Add horizontal margin */
+    float: right;
+    width: 455px; 
+    padding: 1em; 
+    margin: 0 1em; 
 }
 
 main {
-    width: calc(100% - 500px); /* Calculate width based on total available space */
-    padding: 1em; /* Add padding inside main content */
-    margin: 0 1em; /* Add horizontal margin */
+    float: left;
+    width: calc(100% - 500px); 
+    padding: 1em; 
+    margin: 0 1em; 
 }
 
 a {
