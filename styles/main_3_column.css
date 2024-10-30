@@ -12,29 +12,21 @@ body {
 
 .container {
     display: flex; /* Use Flexbox for the layout */
-    justify-content: space-between; /* Space between columns */
+    justify-content: center; /* Center the container */
 }
 
 #sidebarA {
-    width: 245px;
+    width: 200px; /* Width for sidebar A */
     margin-left: -1em;
 }
 
-#sidebarA h2 {
-    color: maroon;
-}
-
 #sidebarB {
-    width: 20%;
-}
-
-#sidebarB h2 {
-    color: maroon;
+    width: 300px; /* Width for sidebar B */
 }
 
 main {
-    width: 60%;
-    margin: 1em 1em; /* Add margin to create space between columns */
+    width: calc(100% - 500px); /* Calculate width based on total available space */
+    margin: 1em; /* Add margin for spacing */
 }
 
 a {
@@ -96,3 +88,4 @@ footer p {
     color: white;
     text-align: center;
 }
+
