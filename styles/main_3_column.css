@@ -17,16 +17,20 @@ body {
 
 #sidebarA {
     width: 200px; /* Width for sidebar A */
-    margin-left: -1em;
+    padding: 1em; /* Add padding inside sidebar A */
+    margin: 0 1em; /* Add horizontal margin */
 }
 
 #sidebarB {
     width: 300px; /* Width for sidebar B */
+    padding: 1em; /* Add padding inside sidebar B */
+    margin: 0 1em; /* Add horizontal margin */
 }
 
 main {
     width: calc(100% - 500px); /* Calculate width based on total available space */
-    margin: 1em; /* Add margin for spacing */
+    padding: 1em; /* Add padding inside main content */
+    margin: 0 1em; /* Add horizontal margin */
 }
 
 a {
