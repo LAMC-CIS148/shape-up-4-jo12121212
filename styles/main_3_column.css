@@ -33,7 +33,6 @@ body {
 }
 
 main {
-    width: calc(100% - 1200px); 
     padding: 1em; 
     margin: 0 1em; 
 }
