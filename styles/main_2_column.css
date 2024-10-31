@@ -1,7 +1,7 @@
 /* The styles for the elements */
 body {
     font-family: sans-serif;
-    width: 1200px;
+    width: 850px;
     border: solid steelblue;
     box-shadow: 0px 0px 10px 10px black;
     margin: auto;
@@ -21,18 +21,9 @@ body {
 #sidebarA h2{
     color: maroon;
 }
-    
 
-#sidebarB {
-    width: 355px; 
-    padding: 1em; 
-    margin: 0 1em; 
-}
-#sidebarB h2{
-    color:maroon;
-}
 #sidebarC {
-    width: 500px;
+    width: 555px;
     padding: 1em;
     margin: 0 1em;
 }
