@@ -81,8 +81,9 @@ h2 {
 
 /* The styles for the navigation menu */
 #nav_menu {
-    width: 850px;  /* Set the same width as the body */
-    margin: 0 auto;  /* Center the nav menu */
+    width: 100%;  /* Make the nav menu fill the entire body width */
+    margin: 0;  /* Remove margin */
+    padding: 0;  /* Remove padding */
 }
 
 #nav_menu ul {
@@ -95,12 +96,11 @@ h2 {
 
 #nav_menu ul li {
     float: left;
-    width: auto;  /* Make sure list items fit the container */
 }
 
 #nav_menu ul li a {
     display: block;
-    width: 150px;
+    width: 150px;  /* Keep the width of each link */
     text-align: center;
     padding: 1em 0;
     text-decoration: none;
@@ -146,4 +146,3 @@ footer p {
     color: white;
     text-align: center;
 }
-
