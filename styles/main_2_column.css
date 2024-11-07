@@ -81,26 +81,29 @@ h2 {
 
 /* The styles for the navigation menu */
 #nav_menu {
-    width: 100%;  /* Make the nav menu fill the entire body width */
-    margin: 0;  /* Remove margin */
-    padding: 0;  /* Remove padding */
+    width: 100%;        /* Make the nav menu fill the entire body width */
+    margin: 0;          /* Remove margin to ensure it sticks to the sides */
+    padding: 0;         /* Remove padding */
+    border-top: solid steelblue 5px; /* Keep border-top for visual attachment */
+    box-sizing: border-box; /* Ensures padding and border don't affect width */
 }
 
 #nav_menu ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0;  /* Remove margin */
+    padding: 0;  /* Remove padding */
     position: relative;
     width: 100%;  /* Ensure the UL takes up the full width of the nav menu */
 }
 
 #nav_menu ul li {
     float: left;
+    position: relative; /* Ensure dropdowns work correctly */
 }
 
 #nav_menu ul li a {
     display: block;
-    width: 150px;  /* Keep the width of each link */
+    width: 150px;
     text-align: center;
     padding: 1em 0;
     text-decoration: none;
@@ -117,10 +120,8 @@ h2 {
     display: none;
     position: absolute;
     top: 100%;
-}
-
-#nav_menu ul ul li {
-    float: none;
+    left: 0;
+    z-index: 10;  /* Ensures dropdown is above other content */
 }
 
 #nav_menu ul li:hover > ul {
@@ -132,6 +133,7 @@ h2 {
     clear: both;
     display: block;
 }
+
 
 /* The styles for the footer */
 footer {
