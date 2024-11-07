@@ -81,9 +81,9 @@ h2 {
 
 /* The styles for the navigation menu */
 #nav_menu {
-    width: 100%;  /* Make the nav menu fill the entire body width */
-    margin: 0;  /* Remove margin */
-    padding: 0;  /* Remove padding */
+    width: 100%; 
+    margin: 0;  
+    padding: 0; 
 }
 
 #nav_menu ul {
@@ -91,7 +91,7 @@ h2 {
     margin: 0;
     padding: 0;
     position: relative;
-    width: 100%;  /* Ensure the UL takes up the full width of the nav menu */
+    width: 100%;  
 }
 
 #nav_menu ul li {
@@ -100,7 +100,7 @@ h2 {
 
 #nav_menu ul li a {
     display: block;
-    width: 150px;  /* Keep the width of each link */
+    width: 150px;  
     text-align: center;
     padding: 1em 0;
     text-decoration: none;
