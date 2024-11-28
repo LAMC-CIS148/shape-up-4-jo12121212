@@ -165,7 +165,7 @@ br {
     font-weight: bold;
 }
 #nav_menu a.current {
-	color: yellow;
+	color: black;
 }
 #nav_menu ul ul {
     display: none;
